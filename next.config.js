@@ -1,3 +1,6 @@
 module.exports = {
-  reactStrictMode: true,
+    reactStrictMode: true,
+    images: {
+        remotePatterns: [new URL('https://images.pexels.com/**')],
+    },
 };
